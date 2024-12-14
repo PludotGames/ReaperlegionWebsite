@@ -12,7 +12,7 @@
     color: #ebf5f6;
 }
 
-
+/*Header*/
 .Header{
     position:fixed;
     top: 0px;
@@ -85,6 +85,12 @@
 .Header .LinkBlocks button:active, .LinkBlocksPhone button:active{
     box-shadow: 1px 1px #040000;
 }
+#ReaperImage {
+    border-radius: 5px;
+}
+
+
+/* */
 a {
     color: #ebf5f6;
     text-decoration: none;
@@ -201,4 +207,15 @@ h3 {
 .ComplaintFormInputs input:active{
     border-color: #ebf5f6;
     border-radius: 5px;
+}
+
+/* Other Games section*/
+.OtherGamesButtons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
