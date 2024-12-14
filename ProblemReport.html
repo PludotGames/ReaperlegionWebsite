@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProblemReport</title>
+    <link rel="shortcut icon" href="RepaerLegionfavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="Header">
+        <div class="WebpageTitleAndLogo">
+            <img id="ReaperImage" src="RepaerLegion.png" alt="ReaperLegionLogo">
+            <div class="text" id="SiteTitle" ><h1>ReaperLegion</h1></div>
+        </div> 
+        <div  class="LinkBlocks" >
+            <button><a href="https://discord.gg/ZcMQ9VTbGe">Discord</a></button>
+            <button><a href="index.html">Main page</a></button>
+            
+        </div>
+        <div class="LinkBlocksPhone">
+            <button type="button" id="GoToButton">GotTo</button>
+                <ul id ="HiddenButtonsList" hidden>
+                    <li style="margin: 10px;"><button type="button" onclick="ResetButton()"><a href="https://discord.gg/ZcMQ9VTbGe">Discord</a></button></li>
+                    <li style="margin: 10px;"><button type="button" onclick="ResetButton()"><a href="index.html">Main page</a></button></li>
+                <ul>
+        </div>
+        <div class="content">
+            <div class="ComplaintForm">
+            <form action="https://script.google.com/macros/s/AKfycbwVqbUHYlt7WGrG5UDAYe_pcRfwFLGJON3d8UytzNcojb-wFTFSY8RHnP6Tm0BpzTuqWw/exec" method="POST" >
+                <div class="ComplaintFormInputs">
+                <input id="Email" name="Email" type="email" placeholder="Example@example.example"> <!-- Email -->
+                <input id="Name" name="Name" type="text"    placeholder="Example"> <!-- Name -->
+                <input id="problem" name="problem" type="text"> <!-- The problem in question -->
+                <button type="submit" id="SubmitButtonComplaintForm" name="submit">--Submit--</button>
+                </div>
+                
+            </form>
+            </div>
+        </div>
+    </div>
+    <footer> <script src="main.js"></script></footer>
+</body>
+</html>
