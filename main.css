@@ -126,6 +126,8 @@ h3 {
         display: none;
     }
     .Header .LinkBlocksPhone{
+        position: relative;
+        translate: -40px;
         display: flex;
         flex-direction: row;
         flex: auto;
@@ -133,7 +135,7 @@ h3 {
         margin: 0.5%;
         flex-flow: wrap;
         gap:10%;
-        background-color: inherit;
+        background-color: transparent;
         flex-grow: 3;
         flex-shrink: 3;
         padding: 0.5%;
